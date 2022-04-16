@@ -55,7 +55,7 @@ function Home() {
   useEffect(() => {
     getMeal();
     setShow(false);
-  }, []);
+  }, [search]);
   // useEffect for ingredient
   useEffect(() => {
     getIntMeal();
