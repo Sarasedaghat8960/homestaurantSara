@@ -24,7 +24,7 @@ function Home() {
   const [mealsWithUsers, setMealsWithUsers] = useState([]);
   const [show, setShow] = useState(false);
   //APIs for diferent searches and the main page 
-  const APIFood = `https://www.themealdb.com/api/json/v1/1/search.php?s=${search}`;
+  //const APIFood = `https://www.themealdb.com/api/json/v1/1/search.php?s=${search}`;
   const APIINGRED = `https://www.themealdb.com/api/json/v1/1/filter.php?i=${ingredient}`;
   const APIUSER = `https://www.themealdb.com/api/json/v1/1/filter.php?c=${user}`;
   console.log("ingredient from app", ingredient);
