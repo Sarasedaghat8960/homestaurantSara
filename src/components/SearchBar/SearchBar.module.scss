@@ -1,0 +1,87 @@
+//Default for Mobile
+.searchContainer {
+  color: black;
+}
+.searchForm {
+  min-height: 10vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.searchReceipt {
+  border: none;
+  width: 40%;
+  padding: 10px;
+}
+.searchReceiptButton {
+  background-color: lightcoral;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+}
+.alert {
+  color: red;
+}
+.listContainer {
+  display: flex;
+  width: 40%;
+  padding: 10px;
+  background-color: white;
+}
+.userType {
+  flex-direction: row;
+}
+.userTypeText {
+  font-weight: 700;
+}
+@media (min-width: 769px) {
+  .searchContainer {
+    color: black;
+    border-radius: 25px;
+    background: rgb(248, 246, 247);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2rem 0rem;
+    width: 100%;
+  }
+  .searchForm {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .searchReceipt {
+    padding: 10px;
+    border: 2px solid rgb(156, 40, 40);
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+  }
+  .searchReceiptButton {
+    // width: 40%;
+    background-color: rgb(156, 40, 40);
+    padding: 10px;
+    color: white;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    border: 2px solid rgb(156, 40, 40);
+  }
+
+  .listContainer {
+    width: 40%;
+    padding: 10px;
+    background-color: white;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border: 2px solid rgb(156, 40, 40);
+    .userType {
+      border: none;
+      border-bottom-left-radius: 15px;
+      border-top-left-radius: 15px;
+    }
+    .userContainer {
+      border: none;
+    }
+  }
+}
