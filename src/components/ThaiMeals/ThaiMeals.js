@@ -42,7 +42,7 @@ export default function ThaiMeals({title,image,id}) {
       :
         <p><GiKnifeFork/> { completeContent}</p> 
       }
-     <a  onClick={()=>{setReadMore(!readMore)}}><h2 className={styles.readMoreLink}>{linkName}</h2></a>
+   <h2  onClick={()=>{setReadMore(!readMore)}} className={styles.readMoreLink}>{linkName}</h2>
      <div className={styles.youtubeContainer}>
          <div className={styles.youtubeText}>
             <p>Click  to watch recipe video <FaRegHandPointRight/> </p> 
