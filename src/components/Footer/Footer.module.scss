@@ -181,20 +181,23 @@ input {
         background-color: white;
         padding-right: 80px;
         padding-left: 80px;
-        padding-bottom: 0;
-        margin-bottom: 0;
+
+        bottom: 0;
+        gap: 0;
+        padding-bottom: 0px;
         .logo {
             background-image: url(/image/footerLogo.png);
             background-repeat: no-repeat;
             width: 60%;
             margin-top: 50px;
-
             background-size: 500px;
+            margin-right: -250px;
         }
 
         .newsLetter {
             text-align: left;
             display: block;
+            margin-left: -150px;
 
             ::placeholder {
                 text-align: left;
@@ -203,7 +206,7 @@ input {
             }
 
             input {
-                width: 150px;
+                width: 250px;
                 height: 30px;
             }
             .footerBtn {

@@ -57,7 +57,7 @@ export default function SearchBar({setSearch,setIsFoodSearched,setIsIngredientSe
           </div> 
           <div className={styles.searchCardContainer}>
               <div className={styles.searchInput}  > 
-                 <input type="text" placeholder='Search with  ingredient'className={styles.searchInput}  onChange={(event)=>{event.preventDefault(); setIngInput(event.target.value)}}/>
+                 <input type="text" placeholder='Search with ingredient'className={styles.searchInput}  onChange={(event)=>{event.preventDefault(); setIngInput(event.target.value)}}/>
               </div>
               <div  className={styles.searchButton}>
                   <button type="submit"  className={styles.searchButton} onClick={getIngredientValue}><FaSearch/></button>

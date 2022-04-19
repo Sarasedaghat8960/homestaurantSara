@@ -14,12 +14,14 @@ function Footer() {
             <div className={styles.newsLetter}>
                 <h3>Contact us</h3>
                 <p>
-                    Do you have a quaestion
+                    Do you want to recieve our sugested recipe?
+                 </p>
+                 <p>   
+                    Sign up for our newsletter here! 
                    
-                    Feel free to contact us via mail!
                 </p>
-                <input type="text" placeholder="Your Message" />
-                <button className={styles.footerBtn}>Contact us</button>
+                <input type="text" placeholder="name@mail.com" />
+                <button className={styles.footerBtn} mailto="mailto:sara.msedaghat@gmail.com" >Subscribe</button>
             </div>
         </div>
     )

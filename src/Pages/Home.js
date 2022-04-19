@@ -23,34 +23,12 @@ function Home() {
   const [mealsWithIngreds, setMealsWithIngreds] = useState([]);
   const [mealsWithUsers, setMealsWithUsers] = useState([]);
   const [show, setShow] = useState(false);
-  //APIs for diferent searches and the main page 
-  //const APIFood = `https://www.themealdb.com/api/json/v1/1/search.php?s=${search}`;
+
   const APIINGRED = `https://www.themealdb.com/api/json/v1/1/filter.php?i=${ingredient}`;
   const APIUSER = `https://www.themealdb.com/api/json/v1/1/filter.php?c=${user}`;
   console.log("ingredient from app", ingredient);
   console.log("APIINGRED", APIINGRED);
-  //fetch data for searching with food name
-  // async function getMeal() {
-  //   const res = await fetch(APIFood);
-  //   const data1 = await res.json();
-  //   console.log(data1);
-  //   setMeals(data1.meals);
-  // }
-
-  //fetch data for searching with food ingredients
-  // async function getIntMeal() {
-  //   const res2 = await fetch(APIINGRED);
-  //   const data2 = await res2.json();
-  //   console.log("data2", data2);
-  //   setMealsWithIngreds(data2.meals);
-  // }
-  // fetch data for searching with user
-  // async function getUserMeal() {
-  //   const res3 = await fetch(APIUSER);
-  //   const data3 = await res3.json();
-  //   console.log("data3", data3);
-  //   setMealsWithUsers(data3.meals);
-  // }
+ 
   // useEffect for search
   useEffect(() => {
     fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${search}`)
