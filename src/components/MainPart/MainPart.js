@@ -45,6 +45,7 @@ export default function MainPart({title,image,instruction,youtube}) {
          
       </div>
    </div>
+  
     </section>
 
     </>
