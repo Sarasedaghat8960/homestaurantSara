@@ -86,16 +86,16 @@ function Home() {
       <div className={styles.searchedText}>
         {isFoodSearched ? (
           <h2>
-            Search resulr for food with the word <u>{search}</u> in name
+            Search result for food with the word <u>{search}</u> in name
           </h2>
         ) : isIngredientSearched ? (
           <h2>
-            Search resulr for food with the word <u>{ingredient}</u> in
+            Search result for food with the word <u>{ingredient}</u> in
             ingredients
           </h2>
         ) : isUserSearched ? (
           <h2>
-            Search resulr for food with the category of <u>{user}</u>
+            Search result for food with the category of <u>{user}</u>
           </h2>
         ) : (
           <p></p>
