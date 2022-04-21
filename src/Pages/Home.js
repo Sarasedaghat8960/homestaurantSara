@@ -156,7 +156,7 @@ function Home() {
       ) : (
         <div className={styles.spinner}>
              <SpinnerRoundFilled size="15%" color="rgb(156, 40, 40)" /> 
-
+            
         </div>
         
       )}
